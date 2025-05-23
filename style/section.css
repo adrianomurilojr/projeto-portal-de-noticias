@@ -5,7 +5,8 @@
     border-radius: 5px;
   }
 
-   .card { /*adicionando fundo com degradê */
+  .card {
+    /*adicionando fundo com degradê */
     position: relative;
     border-radius: 5px;
     overflow: hidden;
@@ -16,6 +17,17 @@
       inset: 0;
       top: 50%;
       background: linear-gradient(180deg, transparent 0%, #020617);
+    }
+
+    figcaption {
+      position: absolute;
+      bottom: 0;
+
+      padding: 24px;
+
+      h2 {
+        margin-top: 8px;
+      }
     }
   }
 }
