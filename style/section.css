@@ -28,6 +28,10 @@
       h2 {
         margin-top: 8px;
       }
+
+      &:has(.text-lg) {   /*diz o seguinte: no figcaption tem uma class com o nome text-lag? */
+        padding: 12px;
+      }
     }
   }
 }
